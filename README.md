@@ -19,20 +19,22 @@ The main objectives of this project are:
 6. Communicate findings through visualizations
 
 ## 📂 Dataset Description
-The dataset contains historical shark attack incidents worldwide. Key variables include:
+The dataset contains historical shark attack incidents worldwide. 
 
-**1. Date:** Date of the attack
-**2. Year:** Year of the incident
-**3. Type:** Type of attack (provoked/unprovoked)
-**4. Country:** Country where the attack occurred
-**5. Area:** Specific region
-**6. Location:** Exact location
-**7. Activity:** Activity performed during attack
-**8. Sex:** Victim gender
-**9. Age:** Victim age
-**10. Injury:** Description of injuries
-**11. Fatal (Y/N):** Whether the attack was fatal
-**12. Species:** Shark species involved
+Key variables include:
+
+1. **Date:** Date of the attack
+2. **Year:** Year of the incident
+3. **Type:** Type of attack (provoked/unprovoked)
+4. **Country:** Country where the attack occurred
+5. **Area:** Specific region
+6. **Location:** Exact location
+7. **Activity:** Activity performed during attack
+8. **Sex:** Victim gender
+9. **Age:** Victim age
+10. **Injury:** Description of injuries
+11. **Fatal (Y/N):** Whether the attack was fatal
+12. **Species:** Shark species involved
 
 The dataset required extensive cleaning due to:
 1. Missing values
@@ -51,6 +53,7 @@ Several preprocessing steps were performed to prepare the data for analysis.
 - Renamed inconsistent columns
 
 **2. Removing Unnecessary Columns:**
+
 Columns containing mostly missing values or irrelevant information were removed.
 
 **3. Handling Missing Values:**
@@ -58,6 +61,7 @@ Columns containing mostly missing values or irrelevant information were removed.
 - Removed rows with insufficient information when necessary
 
 **4. Cleaning the Age Column:**
+
 The Age column contained inconsistent formats such as:
 - "50+"
 - "20s"
@@ -72,22 +76,25 @@ The Age column contained inconsistent formats such as:
 - Created a cleaned column: Age_cleaned
 
 **5. Data Type Conversion:**
+
 Converted columns to appropriate data types:
 - Year → numeric
 - Age → numeric
 - Fatal → categorical
 
 ## 📊 Exploratory Data Analysis
-
 After cleaning the dataset, several analyses were performed.
 
 **1. Shark Attacks Over Time:**
+
 Examined how the number of attacks has changed across years.
 
 **2. Attacks by Country:**
+
 Identified countries with the highest number of recorded shark attacks.
 
 **3. Activities During Attacks:**
+
 Analyzed which activities are most associated with shark attacks, such as:
 - Surfing
 - Swimming
@@ -95,9 +102,11 @@ Analyzed which activities are most associated with shark attacks, such as:
 - Diving
 
 **4. Fatal vs Non-Fatal Attacks:**
+
 Compared the proportion of fatal and non-fatal incidents.
 
 **5. Age Distribution:**
+
 Explored the distribution of victim ages using the cleaned age data.
 
 ## 📈 Visualizations
