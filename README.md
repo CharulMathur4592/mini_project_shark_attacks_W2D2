@@ -139,3 +139,8 @@ The following tools were used:
 3. Helena Sospedra
 4. Isailton Soares
 5. Sulaiman Castineira Diaz
+
+## Presentation:
+
+https://docs.google.com/presentation/d/1IcCqjMSphGaEiCUmoLtGZBLR__BC1jgHO7QaGB_LTH4/edit?usp=sharing
+
